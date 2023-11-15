@@ -65,21 +65,11 @@ body {
 }
 .top-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: #000;
   padding: 14px 30px;
 }
-.topbar .prev-next-buttons button{
-  color: #7a7a7a;
-  cursor: not-allowed;
-  width: 64px;
-  height: 64px;
-  border-radius: 100%;
-  font-size: 30px;
-  border: 0px;
-  background-color: #090909;
-  margin-right: 10px;
-}
+
 .top-bar .navbar {
   display: flex;
   align-items: center;
